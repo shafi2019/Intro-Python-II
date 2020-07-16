@@ -2,6 +2,6 @@
 # description attributes.
 
 class Room:
-    def __init__(self, name, room):
+    def __init__(self, name, description):
       self.name = name 
-      self.age = room
+      self.age = description
